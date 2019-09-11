@@ -1,0 +1,1507 @@
+@charset "UTF-8";
+input[type="text"],
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: #888;
+  font-size: inherit;
+}
+
+input[type="text"]:-moz-placeholder,
+select:-moz-placeholder {
+  color: #888;
+  font-size: inherit;
+}
+
+input[type="text"]::-moz-placeholder,
+select::-moz-placeholder {
+  color: #888;
+  font-size: inherit;
+}
+
+input[type="text"]:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  color: #888;
+  font-size: inherit;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+}
+
+input, textarea, select {
+  background-color: transparent;
+  font-family: '微软雅黑';
+}
+
+select {
+  border: none;
+}
+
+option {
+  text-indent: 1em;
+  font-family: '微软雅黑';
+}
+
+input[type='text'] {
+  border: none;
+  text-indent: 1em;
+}
+
+.join .check-item .radio_type {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a, i {
+  display: block;
+}
+
+.header {
+  padding: 13px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .nuoda_logo {
+  width: 180px;
+  height: 60px;
+  float: left;
+  margin-right: 12px;
+}
+
+.header .uws_logo {
+  width: 208px;
+  height: 44px;
+  float: left;
+  margin-top: 8px;
+}
+
+.header .nav {
+  float: left;
+  margin-top: 19px;
+}
+
+.header .nav .nav-item {
+  float: left;
+  color: #333333;
+  font-size: 16px;
+  border-right: 1px dotted #333333;
+  padding: 0 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .nav .nav-item:last-child {
+  border-right: 0;
+}
+
+.header .nav .nav-item:hover {
+  color: #eb4d4d;
+}
+
+.header .tel {
+  float: right;
+  margin-top: 14px;
+}
+
+.header .tel .icon {
+  width: 32px;
+  height: 30px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/tel.png") no-repeat;
+  float: left;
+}
+
+.header .tel .tel-text {
+  color: #f05630;
+  font-size: 24px;
+  float: left;
+}
+
+.banner {
+  width: 100%;
+  height: 428px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/banner.png") no-repeat center;
+  padding: 90px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.banner .btn {
+  font-size: 18px;
+  margin-top: 214px;
+}
+
+.banner .btn .btn-item {
+  width: 162px;
+  height: 43px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 43px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.banner .btn .btn-item:nth-of-type(2) {
+  margin-left: 30px;
+  margin-right: 2px;
+}
+
+/*英国西苏格兰大学*/
+.uws {
+  padding: 48px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*荣誉*/
+}
+
+.uws .uws-detail {
+  float: left;
+  max-width: 538px;
+}
+
+.uws .uws-detail .uws-bg {
+  width: 538px;
+  height: 240px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg1.png") no-repeat;
+  margin-bottom: 20px;
+}
+
+.uws .uws-detail .uws-head {
+  text-align: center;
+}
+
+.uws .uws-detail .uws-head .line {
+  width: 6px;
+  height: 34px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(20%, #ff653e));
+  background-image: linear-gradient(to bottom, #FFFFFF, #ff653e 20%);
+  border-radius: 3px;
+  float: left;
+  margin-top: 6px;
+}
+
+.uws .uws-detail .uws-head .uws-logo {
+  width: 182px;
+  height: 40px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/uws.png") no-repeat;
+  float: left;
+}
+
+.uws .uws-detail .uws-head .uws-title {
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  line-height: 38px;
+}
+
+.uws .uws-detail .uws-head .text {
+  font-size: 14px;
+  color: #555555;
+  clear: both;
+  line-height: 25px;
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: left;
+}
+
+.uws .uws-detail .uws-head .uws-btn {
+  width: 132px;
+  height: 50px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/school_detail.png") no-repeat;
+  display: inline-block;
+  text-align: center;
+}
+
+.uws .uws-detail .uws-head .uws-btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.uws .honor {
+  width: 580px;
+  float: right;
+}
+
+.uws .honor .honor-row {
+  width: 100%;
+}
+
+.uws .honor .honor-row .num {
+  display: block;
+  width: 30px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/circle.png") no-repeat;
+  text-align: center;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;
+  float: left;
+}
+
+.uws .honor .honor-row .num:before {
+  display: block;
+  content: "";
+  border-left: 1px dotted #626262;
+  height: 82%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+}
+
+.uws .honor .honor-row .detail {
+  width: 92%;
+  float: right;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -8px;
+}
+
+.uws .honor .honor-row .detail .honor-title {
+  font-size: 18px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.uws .honor .honor-row .detail .text {
+  font-size: 14px;
+  color: #666666;
+  line-height: 25px;
+}
+
+.uws .honor .honor-row .detail .text .icon {
+  width: 5px;
+  height: 5px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/circle_black.png") no-repeat;
+  float: left;
+  margin-top: 12px;
+  margin-right: 6px;
+}
+
+.uws .honor .honor-row .detail .text span {
+  float: left;
+  width: 96%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.uws .honor .honor-row .detail:hover {
+  background: #f4f4f4;
+}
+
+.uws .honor .honor-row .detail:hover .honor-title {
+  color: #3069ce;
+}
+
+/*项目*/
+.project {
+  padding: 36px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #eceff6;
+  margin-bottom: 58px;
+  /*简介*/
+  /*伦敦考试委员会*/
+}
+
+.project .intro {
+  width: 408px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg2.png") no-repeat;
+  padding: 45px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  float: left;
+}
+
+.project .intro .intro-title {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon4.png") no-repeat;
+  border-radius: 5px;
+  padding: 10px 0 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.project .intro .intro-title .en {
+  font-size: 26px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project .intro .intro-title .ch {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project .intro .intro-detail {
+  min-height: 360px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  color: #555555;
+  background: #FFFFFF;
+  margin-top: 42px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.project .intro .intro-detail .text {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 9;
+}
+
+.project .intro .intro-detail .intro-btn {
+  color: #ff714b;
+  border: 1px solid #ff714b;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 32px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project .intro .intro-detail .intro-btn:hover {
+  background: #ff714b;
+  color: #FFFFFF;
+}
+
+.project .classes {
+  width: 379px;
+  float: left;
+}
+
+.project .classes .classes-content {
+  padding: 16px 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.project .classes .classes-content .classes-ul {
+  height: 160px;
+  overflow: hidden;
+}
+
+.project .classes .classes-content .classes-ul .classes-row .icon {
+  width: 5px;
+  height: 5px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/circle-blue.png") no-repeat;
+  float: left;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.project .classes .classes-content .classes-ul .classes-row span {
+  width: 94%;
+  line-height: 28px;
+  font-size: 14px;
+  color: #555555;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project .classes .classes-content .intro-btn {
+  color: #ff714b;
+  border: 1px solid #ff714b;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 32px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.project .classes .classes-content .intro-btn:hover {
+  background: #ff714b;
+  color: #FFFFFF;
+}
+
+.project .classes .classes-bg {
+  width: 379px;
+  height: 366px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg3.png") no-repeat;
+}
+
+.project .leb {
+  width: 413px;
+  float: right;
+}
+
+.project .leb .leb-bg {
+  width: 413px;
+  height: 238px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg4.png") no-repeat;
+}
+
+.project .leb .leb-detail {
+  max-height: 336px;
+  overflow-y: hidden;
+  color: #555555;
+  background: #FFFFFF;
+  padding: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.project .leb .leb-detail .text {
+  font-size: 14px;
+  text-align: left;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 9;
+}
+
+.project .leb .leb-detail .intro-btn {
+  color: #ff714b;
+  border: 1px solid #ff714b;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 32px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.project .leb .leb-detail .intro-btn:hover {
+  background: #ff714b;
+  color: #FFFFFF;
+}
+
+/*课程设置*/
+.curriculum {
+  height: 226px;
+}
+
+.curriculum .wrap {
+  position: absolute;
+  height: 226px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.curriculum .classes-set {
+  width: 300px;
+  position: absolute;
+  left: 0;
+}
+
+.curriculum .classes-set .intro-title {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon5.png") no-repeat;
+  border-radius: 5px;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #2c56bd;
+}
+
+.curriculum .classes-set .intro-title .en {
+  font-size: 26px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.curriculum .classes-set .intro-title .ch {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.curriculum .classes-set .text {
+  font-size: 14px;
+  text-align: left;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  margin-top: 20px;
+}
+
+.curriculum .modules {
+  position: absolute;
+  right: 0;
+}
+
+.curriculum .modules .module-item {
+  width: 245px;
+  height: 178px;
+  overflow: hidden;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg5.png") no-repeat #FFFFFF;
+  border: 1px solid #2c56bd;
+  float: left;
+  margin-left: 10px;
+  padding: 16px;
+  font-size: 14px;
+  position: relative;
+}
+
+.curriculum .modules .module-item .item-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.curriculum .modules .module-item .line {
+  display: block;
+  width: 44px;
+  height: 2px;
+  background: #2c56bd;
+  margin: 6px 0;
+}
+
+.curriculum .modules .module-item .en {
+  font-size: 14px;
+  color: #999999;
+}
+
+.curriculum .modules .module-item .admin {
+  width: 100%;
+  height: 76px;
+  overflow: hidden;
+  float: left;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/shadow.png") no-repeat;
+}
+
+.curriculum .modules .module-item .admin .classes-row .icon {
+  width: 5px;
+  height: 5px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/circle-blue.png") no-repeat;
+  float: left;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.curriculum .modules .module-item .admin .classes-row span {
+  width: 93%;
+  line-height: 26px;
+  color: #555555;
+  float: left;
+  text-align: left;
+}
+
+.curriculum .modules .module-item .intro-btn {
+  width: 246px;
+  background: #2c56bd;
+  color: #FFFFFF;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 42px;
+  text-align: center;
+  position: absolute;
+  bottom: 16px;
+  -webkit-box-shadow: 0 -12px 80px 0px #FFFFFFFF;
+          box-shadow: 0 -12px 80px 0px #FFFFFFFF;
+}
+
+.curriculum .modules .module-item:hover {
+  height: auto;
+}
+
+.curriculum .modules .module-item:hover .admin {
+  overflow: visible;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.curriculum .modules .module-item:hover .item-title {
+  color: #2c56bd;
+}
+
+/*模块简介*/
+.module-intro {
+  width: 100%;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/module_intro.png") no-repeat center;
+  background-position-y: 57px;
+  /*管理*/
+  /*预约*/
+}
+
+.module-intro .manage .manage-head {
+  border: 1px solid #000;
+  padding-left: 26px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.module-intro .manage .manage-head span {
+  display: inline-block;
+  font-size: 30px;
+  color: #FFFFFF;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon2.png");
+  padding: 0 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 57px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.module-intro .manage .manage-col {
+  width: 448px;
+  float: left;
+  margin-top: 120px;
+  padding: 34px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.module-intro .manage .manage-col .col-item {
+  margin-bottom: 50px;
+}
+
+.module-intro .manage .manage-col .col-item .item-title {
+  margin-bottom: 5px;
+}
+
+.module-intro .manage .manage-col .col-item .item-title .icon {
+  width: 68px;
+  height: 50px;
+  float: left;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num1.png") no-repeat;
+  font-style: normal;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 44px;
+  margin-right: 6px;
+  text-indent: -9999px;
+}
+
+.module-intro .manage .manage-col .col-item .item-title .title-name {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.module-intro .manage .manage-col .col-item .item-title .title-name em {
+  color: #2c56bd;
+}
+
+.module-intro .manage .manage-col .col-item .text .icon {
+  width: 6px;
+  height: 8px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/triangle.png") no-repeat;
+  float: left;
+  margin-top: 8px;
+  margin-right: 6px;
+}
+
+.module-intro .manage .manage-col .col-item .text p {
+  font-size: 14px;
+  color: #666666;
+  float: left;
+  width: 96%;
+  line-height: 24px;
+}
+
+.module-intro .manage .manage-col .col-item:nth-child(2) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num2.png") no-repeat;
+}
+
+.module-intro .manage .manage-col .col-item:nth-child(3) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num3.png") no-repeat;
+}
+
+.module-intro .manage .manage-col .col-item:nth-child(4) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num4.png") no-repeat;
+}
+
+.module-intro .manage .manage-col .col-item:last-child {
+  margin-bottom: 34px;
+}
+
+.module-intro .manage .manage-col:last-child {
+  width: 440px;
+  float: right;
+}
+
+.module-intro .manage .manage-col:last-child .col-item .item-title .icon {
+  float: right;
+  margin-left: 6px;
+}
+
+.module-intro .manage .manage-col:last-child .col-item .item-title .title-name {
+  float: right;
+}
+
+.module-intro .manage .manage-col:last-child .col-item .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num5.png") no-repeat;
+}
+
+.module-intro .manage .manage-col:last-child .col-item .text p {
+  text-align: right;
+}
+
+.module-intro .manage .manage-col:last-child .col-item:nth-child(2) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num6.png") no-repeat;
+}
+
+.module-intro .manage .manage-col:last-child .col-item:nth-child(3) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num7.png") no-repeat;
+}
+
+.module-intro .manage .manage-col:last-child .col-item:nth-child(4) .item-title .icon {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/num8.png") no-repeat;
+}
+
+.module-intro .appoint {
+  height: 168px;
+  margin-top: -8px;
+  padding: 55px 49px 55px 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.module-intro .appoint .appoint-from {
+  float: right;
+}
+
+.module-intro .appoint .appoint-from .from-item {
+  width: 285px;
+  line-height: 54px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.module-intro .appoint .appoint-from .from-item::-webkit-input-placeholder {
+  color: #888888;
+}
+
+.module-intro .appoint .appoint-from .from-item::-moz-placeholder {
+  color: #888888;
+}
+
+.module-intro .appoint .appoint-from .from-item:-ms-input-placeholder {
+  color: #888888;
+}
+
+.module-intro .appoint .appoint-from .from-item::-ms-input-placeholder {
+  color: #888888;
+}
+
+.module-intro .appoint .appoint-from .from-item::placeholder {
+  color: #888888;
+}
+
+.module-intro .appoint .appoint-from .from-item:last-child {
+  margin-right: 0;
+  width: 241px;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+
+/* 标题模板 */
+.title-module {
+  color: #2c56bd;
+}
+
+.title-module .en {
+  font-size: 28px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon6.png") no-repeat center;
+  padding-top: 46px;
+}
+
+.title-module .cn {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/*项目优势*/
+.pro-advantage {
+  text-align: center;
+  margin-top: 34px;
+}
+
+.pro-advantage .content {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.pro-advantage .content .adv-item {
+  width: 380px;
+  height: 410px;
+  float: left;
+  margin-right: 25px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 15px 0px rgba(222, 222, 222, 0.53);
+          box-shadow: 0px 2px 15px 0px rgba(222, 222, 222, 0.53);
+}
+
+.pro-advantage .content .adv-item .item-bg {
+  width: 340px;
+  height: 180px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon7.png") no-repeat;
+}
+
+.pro-advantage .content .adv-item .item-title {
+  color: #444444;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 10px 0;
+}
+
+.pro-advantage .content .adv-item .text {
+  text-align: left;
+  font-size: 14px;
+  color: #555555;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.pro-advantage .content .adv-item:nth-of-type(2) .item-bg {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon8.png") no-repeat;
+}
+
+.pro-advantage .content .adv-item:nth-of-type(3) .item-bg {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon9.png") no-repeat;
+}
+
+.pro-advantage .content .adv-item:last-child {
+  margin-right: 0;
+}
+
+.pro-advantage .btn {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.pro-advantage .btn .btn-item {
+  width: 166px;
+  height: 58px;
+  color: #FFFFFF;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/btn_1.png") no-repeat;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.pro-advantage .btn .btn-item:nth-of-type(2) {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/btn_2.png") no-repeat;
+  margin-left: 30px;
+}
+
+.pro-advantage .btn .btn-item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+/*如何申请*/
+.apply {
+  margin-top: 50px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg9.png") no-repeat center right;
+  background-position-y: 42px;
+  /*条件*/
+  /*流程*/
+}
+
+.apply .title-module {
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.apply .condition {
+  width: 402px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg10.png");
+  float: left;
+  padding: 0 24px 0 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.apply .condition .condition-item {
+  border-bottom: 1px solid #6e8acb;
+  padding: 18px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.apply .condition .condition-item .num-icon {
+  float: left;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon2.png");
+  padding: 0 16px;
+  font-style: normal;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 44px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  margin-right: 6px;
+  margin-left: -74px;
+}
+
+.apply .condition .condition-item .text {
+  color: #FFFFFF;
+}
+
+.apply .condition .condition-item .text .text-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+.apply .condition .condition-item .text .classes-row .icon {
+  width: 5px;
+  height: 5px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/circle_white.png") no-repeat;
+  float: left;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.apply .condition .condition-item .text .classes-row span {
+  width: 92%;
+  line-height: 25px;
+  font-size: 14px;
+  color: #FFFFFF;
+  float: left;
+  text-align: left;
+}
+
+.apply .condition .condition-item:last-child {
+  border-bottom: none;
+}
+
+.apply .process {
+  width: 760px;
+  height: 415px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/bg11.png") no-repeat;
+  float: right;
+  padding: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.apply .process .num-icon {
+  float: left;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon2.png");
+  padding: 0 16px;
+  font-style: normal;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 44px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  margin-right: 6px;
+  margin-left: -50px;
+}
+
+.apply .process .text-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 44px;
+}
+
+.apply .process .content .process-item {
+  width: 157px;
+  min-height: 262px;
+  background: #FFFFFF;
+  text-align: center;
+  float: left;
+  margin-left: 25px;
+  border-radius: 2px;
+}
+
+.apply .process .content .process-item .item-bg {
+  width: 157px;
+  height: 115px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/step_1.png") no-repeat;
+}
+
+.apply .process .content .process-item .item-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.apply .process .content .process-item .text {
+  font-size: 14px;
+  color: #666666;
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 26px;
+}
+
+.apply .process .content .process-item:nth-of-type(1) {
+  margin-left: 16px;
+}
+
+.apply .process .content .process-item:nth-of-type(2) .item-bg {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/step_2.png") no-repeat;
+}
+
+.apply .process .content .process-item:nth-of-type(3) .item-bg {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/step_3.png") no-repeat;
+}
+
+.apply .process .content .process-item:nth-of-type(4) .item-bg {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/step_4.png") no-repeat;
+}
+
+.apply .process .btn {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.apply .process .btn .btn-item {
+  padding: 0 72px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 43px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.apply .process .btn .btn-item:nth-of-type(2) {
+  margin-left: 25px;
+  margin-right: 2px;
+}
+
+.footer {
+  margin-top: 38px;
+  background: #f6f6f6;
+  font-size: 12px;
+  padding: 22px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  line-height: 16px;
+}
+
+.footer .footer-nav .nav-item {
+  display: inline-block;
+  color: #444444;
+  border-right: 1px solid #cccccc;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .footer-nav .nav-item:hover {
+  color: #eb4d4d;
+}
+
+.footer .address {
+  color: #666666;
+  margin-top: 18px;
+}
+
+/*广告*/
+.ad {
+  display: none;
+  width: 100%;
+  height: 99px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/ad_1.png") no-repeat;
+  position: fixed;
+  bottom: 0;
+}
+
+.ad .container {
+  height: 99px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/ad_2.png") no-repeat;
+}
+
+.ad .free-get {
+  float: right;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.ad .free-get .tel {
+  float: left;
+  width: 242px;
+  height: 40px;
+  background: #FFFFFF;
+  margin-right: 10px;
+  outline: 0;
+}
+
+.ad .free-get .tel::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.ad .free-get .tel::-moz-placeholder {
+  color: #999999;
+}
+
+.ad .free-get .tel:-ms-input-placeholder {
+  color: #999999;
+}
+
+.ad .free-get .tel::-ms-input-placeholder {
+  color: #999999;
+}
+
+.ad .free-get .tel::placeholder {
+  color: #999999;
+}
+
+.ad .free-get .get-result {
+  float: left;
+  height: 40px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon2.png");
+  border-radius: 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.ad .close {
+  width: 25px;
+  height: 25px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/colse.png") no-repeat;
+  float: right;
+  margin-top: -25px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+/*当有广告的时候显示*/
+.bottom-cleardiv {
+  display: none;
+  height: 99px;
+}
+
+/*弹窗*/
+.match-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.match-mask .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.match-mask .mask-wrap {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.match-mask .mask-wrap .modal {
+  width: 502px;
+  height: 402px;
+  padding: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.match-mask .mask-wrap .modal .closeLog {
+  width: 28px;
+  height: 28px;
+  float: right;
+  cursor: pointer;
+}
+
+.match-mask .mask-wrap .modal .listen {
+  width: 94%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 16px;
+  padding: 22px 15px 15px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.match-mask .mask-wrap .modal .listen .listen-item {
+  width: 204px;
+  line-height: 40px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: #e8e8e8;
+  text-align: left;
+  font-size: 15px;
+}
+
+.match-mask .mask-wrap .modal .listen .listen-item:nth-of-type(1) {
+  margin-right: 10px;
+}
+
+.match-mask .mask-wrap .modal .listen .hint {
+  margin: 15px;
+}
+
+.match-mask .mask-wrap .modal .listen .hint .icon {
+  width: 6px;
+  height: 6px;
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/star.png") no-repeat;
+  display: inline-block;
+}
+
+.match-mask .mask-wrap .modal .listen .hint span {
+  font-size: 12px;
+  color: #444444;
+}
+
+.match-mask .mask-wrap .modal .listen .btn {
+  font-size: 18px;
+}
+
+.match-mask .mask-wrap .modal .listen .btn .btn-item {
+  padding: 0 46px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  -webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.match-mask .mask-wrap .modal .listen .btn .btn-item:first-child {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon2.png");
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: -4px;
+  margin-right: -6px;
+}
+
+.match-mask .mask-wrap .modal .listen .btn .btn-item:last-child {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/icon3.png");
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/*试听名额*/
+.test {
+  display: none;
+}
+
+.test .modal {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/popup_1.png") no-repeat;
+}
+
+.test .closeLog {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/close_3.png") no-repeat;
+}
+
+.test .listen {
+  text-align: center;
+}
+
+/*报名申请*/
+.join {
+  display: none;
+}
+
+.join .modal {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/popup_2.png") no-repeat;
+}
+
+.join .mask-wrap .modal {
+  padding: 10px 10px 30px 32px;
+}
+
+.join .mask-wrap .modal .listen {
+  width: 90%;
+}
+
+.join .closeLog {
+  background: url("https://img.thea.cn/thea/zt/seo/uws/images/close_4.png") no-repeat;
+}
+
+.join .info .listen-item {
+  width: 48%;
+  line-height: 40px;
+  border-radius: 6px;
+}
+
+.join .info .listen-item:nth-of-type(1) {
+  margin-right: 10px;
+}
+
+.join .submit {
+  width: 100%;
+  background: #ff5931;
+  line-height: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+  border-radius: 3px;
+}
+
+.join .check-item {
+  color: #444444;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 18px;
+}
+
+.join .check-item .item-label {
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 15px;
+  color: #777;
+}
+
+.join .check-item .radio_type {
+  vertical-align: middle;
+  margin-top: -4px;
+  width: 11px;
+  height: 11px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+}
+
+.join .check-item .radio_type:before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  background-color: #e6e6e6;
+  border: solid 1px #a7a7a7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.join .check-item .radio_type:checked:before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  border: 1px solid #3161d2;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.join .check-item .radio_type:checked:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  background: #3161d2;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.join .check-item .radio_type:checked + label {
+  color: #3161d2;
+}
+
+#ECHAT_invite, .allimg {
+  display: none !important;
+}
